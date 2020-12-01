@@ -9,14 +9,15 @@ export const Container = styled.View`
 `;
 
 export const Header = styled.View`
+  display: flex;
   padding: 24px;
-  ${Platform.OS === 'ios'
+  /* ${Platform.OS === 'ios'
     ? css`
         padding-top: ${getStatusBarHeight() + 24}px;
       `
     : css`
         padding-top: ${getStatusBarHeight() - 24}px;
-      `}
+      `} */
   background: #28262e;
 
   flex-direction: row;
