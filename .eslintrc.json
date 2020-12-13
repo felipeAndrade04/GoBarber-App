@@ -39,6 +39,8 @@
       "import/prefer-default-export": "off",
       "react/jsx-one-expression-per-line": "off",
       "camelcase": "off",
+      "no-use-before-define": [0],
+      "@typescript-eslint/no-use-before-define": [1],
       "import/extensions": [
         "error",
         "ignorePackages",
